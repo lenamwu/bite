@@ -14,6 +14,10 @@
 		F66E99CC2BB14629001C3882 /* biteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99CB2BB14629001C3882 /* biteTests.swift */; };
 		F66E99D62BB14629001C3882 /* biteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99D52BB14629001C3882 /* biteUITests.swift */; };
 		F66E99D82BB14629001C3882 /* biteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99D72BB14629001C3882 /* biteUITestsLaunchTests.swift */; };
+		F66E99E52BB14836001C3882 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99E42BB14836001C3882 /* SignInWithAppleView.swift */; };
+		F66E99E72BB14956001C3882 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99E62BB14956001C3882 /* DashboardView.swift */; };
+		F66E99EB2BB1FD3A001C3882 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99EA2BB1FD3A001C3882 /* LoginView.swift */; };
+		F66E99ED2BB1FD70001C3882 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F66E99D12BB14629001C3882 /* biteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66E99D52BB14629001C3882 /* biteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biteUITests.swift; sourceTree = "<group>"; };
 		F66E99D72BB14629001C3882 /* biteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F66E99E42BB14836001C3882 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		F66E99E62BB14956001C3882 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F66E99EA2BB1FD3A001C3882 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 			children = (
 				F66E99BA2BB14627001C3882 /* biteApp.swift */,
 				F66E99BC2BB14627001C3882 /* ContentView.swift */,
+				F66E99E42BB14836001C3882 /* SignInWithAppleView.swift */,
+				F66E99EA2BB1FD3A001C3882 /* LoginView.swift */,
+				F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */,
 				F66E99BE2BB14628001C3882 /* Assets.xcassets */,
 				F66E99C02BB14628001C3882 /* Preview Content */,
+				F66E99E62BB14956001C3882 /* DashboardView.swift */,
 			);
 			path = bite;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66E99BD2BB14627001C3882 /* ContentView.swift in Sources */,
+				F66E99E72BB14956001C3882 /* DashboardView.swift in Sources */,
+				F66E99ED2BB1FD70001C3882 /* AuthViewModel.swift in Sources */,
 				F66E99BB2BB14627001C3882 /* biteApp.swift in Sources */,
+				F66E99EB2BB1FD3A001C3882 /* LoginView.swift in Sources */,
+				F66E99E52BB14836001C3882 /* SignInWithAppleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

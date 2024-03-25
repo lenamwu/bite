@@ -1,6 +1,7 @@
 //
 //  ContentView.swift
 //  bite
+// manage the navigation and transition bw major components based on the app's state 
 //
 //  Created by Lena Wu on 3/24/24.
 //
