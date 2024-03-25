@@ -18,6 +18,13 @@
 		F66E99E72BB14956001C3882 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99E62BB14956001C3882 /* DashboardView.swift */; };
 		F66E99EB2BB1FD3A001C3882 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99EA2BB1FD3A001C3882 /* LoginView.swift */; };
 		F66E99ED2BB1FD70001C3882 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */; };
+		F66E99EF2BB216A7001C3882 /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = F66E99EE2BB216A7001C3882 /* posts.json */; };
+		F66E99F32BB216FC001C3882 /* FetchDataJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99F22BB216FC001C3882 /* FetchDataJson.swift */; };
+		F66E99F62BB21859001C3882 /* postcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99F52BB21859001C3882 /* postcard.swift */; };
+		F66E99F82BB2187E001C3882 /* postcardheader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99F72BB2187E001C3882 /* postcardheader.swift */; };
+		F66E99FA2BB21889001C3882 /* postcardbody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99F92BB21889001C3882 /* postcardbody.swift */; };
+		F66E99FD2BB2275C001C3882 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99FC2BB2275C001C3882 /* Extensions.swift */; };
+		F66E99FF2BB22CAF001C3882 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E99FE2BB22CAF001C3882 /* PostListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		F66E99E62BB14956001C3882 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F66E99EA2BB1FD3A001C3882 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F66E99EE2BB216A7001C3882 /* posts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		F66E99F22BB216FC001C3882 /* FetchDataJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataJson.swift; sourceTree = "<group>"; };
+		F66E99F52BB21859001C3882 /* postcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcard.swift; sourceTree = "<group>"; };
+		F66E99F72BB2187E001C3882 /* postcardheader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardheader.swift; sourceTree = "<group>"; };
+		F66E99F92BB21889001C3882 /* postcardbody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardbody.swift; sourceTree = "<group>"; };
+		F66E99FC2BB2275C001C3882 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F66E99FE2BB22CAF001C3882 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,14 +116,18 @@
 		F66E99B92BB14627001C3882 /* bite */ = {
 			isa = PBXGroup;
 			children = (
+				F66E99F42BB2182A001C3882 /* components */,
 				F66E99BA2BB14627001C3882 /* biteApp.swift */,
 				F66E99BC2BB14627001C3882 /* ContentView.swift */,
 				F66E99E42BB14836001C3882 /* SignInWithAppleView.swift */,
 				F66E99EA2BB1FD3A001C3882 /* LoginView.swift */,
 				F66E99EC2BB1FD70001C3882 /* AuthViewModel.swift */,
+				F66E99EE2BB216A7001C3882 /* posts.json */,
+				F66E99F22BB216FC001C3882 /* FetchDataJson.swift */,
 				F66E99BE2BB14628001C3882 /* Assets.xcassets */,
 				F66E99C02BB14628001C3882 /* Preview Content */,
 				F66E99E62BB14956001C3882 /* DashboardView.swift */,
+				F66E99FC2BB2275C001C3882 /* Extensions.swift */,
 			);
 			path = bite;
 			sourceTree = "<group>";
@@ -137,6 +155,17 @@
 				F66E99D72BB14629001C3882 /* biteUITestsLaunchTests.swift */,
 			);
 			path = biteUITests;
+			sourceTree = "<group>";
+		};
+		F66E99F42BB2182A001C3882 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F66E99F52BB21859001C3882 /* postcard.swift */,
+				F66E99F72BB2187E001C3882 /* postcardheader.swift */,
+				F66E99F92BB21889001C3882 /* postcardbody.swift */,
+				F66E99FE2BB22CAF001C3882 /* PostListView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66E99C22BB14628001C3882 /* Preview Assets.xcassets in Resources */,
+				F66E99EF2BB216A7001C3882 /* posts.json in Resources */,
 				F66E99BF2BB14628001C3882 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66E99F82BB2187E001C3882 /* postcardheader.swift in Sources */,
 				F66E99BD2BB14627001C3882 /* ContentView.swift in Sources */,
+				F66E99F62BB21859001C3882 /* postcard.swift in Sources */,
 				F66E99E72BB14956001C3882 /* DashboardView.swift in Sources */,
 				F66E99ED2BB1FD70001C3882 /* AuthViewModel.swift in Sources */,
 				F66E99BB2BB14627001C3882 /* biteApp.swift in Sources */,
 				F66E99EB2BB1FD3A001C3882 /* LoginView.swift in Sources */,
 				F66E99E52BB14836001C3882 /* SignInWithAppleView.swift in Sources */,
+				F66E99F32BB216FC001C3882 /* FetchDataJson.swift in Sources */,
+				F66E99FD2BB2275C001C3882 /* Extensions.swift in Sources */,
+				F66E99FF2BB22CAF001C3882 /* PostListView.swift in Sources */,
+				F66E99FA2BB21889001C3882 /* postcardbody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

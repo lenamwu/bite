@@ -1,0 +1,32 @@
+[
+    {
+        "image": "post1",
+        "like_count": 50,
+        "comment_count": 12,
+        "view_count": 1200,
+        "description": "princess cake!",
+        "profile_img": "lena",
+        "profile_name": "Lena Wu",
+        "profile_id": "lenamwu"
+    },
+    {
+        "image": "post2",
+        "like_count": 80,
+        "comment_count": 15,
+        "view_count": 1500,
+        "description": "cinna rollsssss:)",
+        "profile_img": "anna",
+        "profile_name": "Anna Rodgers",
+        "profile_id": "annrdgers7"
+    },
+    {
+        "image": "post3",
+        "like_count": 120,
+        "comment_count": 25,
+        "view_count": 2000,
+        "description": "simple salad",
+        "profile_img": "freya",
+        "profile_name": "Freya Ryd",
+        "profile_id": "freyaryd"
+    }
+]
